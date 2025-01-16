@@ -2,7 +2,6 @@
 """
 Created on Mon Jul 29 08:47:17 2024
 
-@author: zohreh
 """
 
 
@@ -24,7 +23,7 @@ pd.set_option('display.max_rows', None)
 #%% 
 # Read the file and read the first and last five rows
 
-df = pd.read_csv(r"/Users/zohrehsamieekadkani/Desktop/GitHub/untitled folder/exoplanets.csv")
+df = pd.read_csv(r"exoplanets.csv")
 print(df.head())
 
 #%%
